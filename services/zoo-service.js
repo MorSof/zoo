@@ -4,8 +4,8 @@ async function getAllAnimals() {
     return await zooDB.getAllAnimals();
 }
 
-async function createAnimal(animalType, animalName, animalAge) {
-    return await zooDB.createAnimal(animalType, animalName, animalAge);
+async function createAnimal(animalType, animalName, animalAge, imageUrl) {
+    return await zooDB.createAnimal(animalType, animalName, animalAge, imageUrl);
 }
 
 module.exports = {getAllAnimals, createAnimal}

@@ -1,0 +1,26 @@
+[
+  {
+    "animalType": "Lion",
+    "animalName": "Lionel Messi",
+    "animalAge": 34,
+    "imageUrl": "https://cdn.britannica.com/29/150929-050-547070A1/lion-Kenya-Masai-Mara-National-Reserve.jpg"
+  },
+  {
+    "animalType": "Cat",
+    "animalName": "Catti",
+    "animalAge": 5,
+    "imageUrl": "https://cdn.britannica.com/22/206222-131-E921E1FB/Domestic-feline-tabby-cat.jpg"
+  },
+  {
+    "animalType": "Dog",
+    "animalName": "Lassie",
+    "animalAge": 10,
+    "imageUrl": "https://thumbs.dreamstime.com/b/tricolor-rough-collie-funny-scottish-long-haired-english-lassie-dog-posing-outdoors-park-212382530.jpg"
+  },
+  {
+    "animalType": "Kangaroo",
+    "animalName": "Cristiano Ronaldo",
+    "animalAge": 36,
+    "imageUrl": "https://smartcdn.prod.postmedia.digital/nationalpost/wp-content/uploads/2018/12/kangaroo.jpg"
+  }
+]

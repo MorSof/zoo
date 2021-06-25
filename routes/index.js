@@ -15,7 +15,7 @@ router.get('/', async function (req, res) {
 /* GET home page. */
 router.post('/create-animal', async function(req, res, next) {
   try {
-    const animal = await zooService.createAnimal(req.body.animalType, req.body.animalName, req.body.animalAge);
+    const animal = await zooService.createAnimal(req.body.animalType, req.body.animalName, req.body.animalAge, req.body.imageUrl);
     res.json(animal);
   } catch (err) {
     console.error(err);

@@ -5,8 +5,8 @@ async function getAllAnimals() {
     return zoo;
 }
 
-async function createAnimal(animalType, animalName, animalAge) {
-    let animal = {animalType, animalName, animalAge};
+async function createAnimal(animalType, animalName, animalAge, imageUrl) {
+    let animal = {animalType, animalName, animalAge, imageUrl};
    return await new ZooModel(animal).save();
 }
 

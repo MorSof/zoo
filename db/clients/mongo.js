@@ -12,7 +12,8 @@ const ZooModel = mongoose.model('Zoo',
     new mongoose.Schema({
         animalType: String,
         animalName: String,
-        animalAge: Number
+        animalAge: Number,
+        imageUrl: String
     })
 );
 

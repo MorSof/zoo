@@ -92,3 +92,17 @@ function onListening() {
     console.log(res);
   });
 }
+
+
+const sigs = ['SIGINT', 'SIGTERM', 'SIGQUIT']
+sigs.forEach(sig => {
+  process.on(sig, () => {
+    server.close(function (err) { // Stops the server from accepting new connections and finishes existing connections.
+      console.log("Server closed")
+      adminModule.deleteAllTables().then( (res) => { // close your database connection and exit with success
+        console.log(res);
+        process.exit(0);
+      });
+    })
+  })
+})
